@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+    <meta http-equiv="Default-Style" content="text/css" />
+    <link href="loginpage.css" rel="stylesheet" type="text/css" />
+
+<title>Coaxial login</title>
+</head>
+<body>
+
+
+
+<article class="login bradius">
+    <header class="dark">
+        Coaxial Panel
+    </header>
+
+    
+
+    
+
+    
+
+    <section class="loginsec">
+        <form method="post" action="index.php" enctype="application/x-www-form-urlencoded">
+            <input type="hidden" name="script" value="" />
+            <input type="hidden" name="qrystr" value="" />
+            <fieldset>
+            <legend>Coaxial&nbsp;-&nbsp;Login</legend>
+            <p>
+                <label for="loginname">Username:</label>&nbsp;
+                <input type="text" name="loginname" id="loginname" value="" required/>
+            </p>
+            <p>
+                <label for="password">Password:</label>&nbsp;
+                <input type="password" name="password" id="password" required/>
+            </p>
+            <p>
+                <label for="language">Language:</label>&nbsp;
+                <select name="language" id="language"><option value="profile"  selected="selected" >Profile language</option><option value="Deutsch"   >Deutsch</option><option value="English"   >English</option><option value="Fran&amp;ccedil;ais"   >Fran&ccedil;ais</option><option value="Portugu&amp;ecirc;s"   >Portugu&ecirc;s</option><option value="Italiano"   >Italiano</option><option value="Nederlands"   >Nederlands</option><option value="Svenska"   >Svenska</option></select>
+            </p>
+            <p class="submit">
+                <input type="hidden" name="send" value="send" />
+                <input type="submit" value="Login" />
+            </p>
+            </fieldset>
+        </form>
+
+        <aside>
+            
+                <a href="index.php?action=forgotpwd">Forgot your password?</a>
+            
+        </aside>
+
+    </section>
+
+</article>
+
+<footer>
+
+    
+    &copy; <a href="http://www.coaxial.rs/" rel="external">Coaxial Atelier</a><br />
+</span>
+
+</footer>
+<a href="#" class="scrollup">Scroll</a>
+</body>
+</html>

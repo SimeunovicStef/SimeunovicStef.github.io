@@ -1,0 +1,78 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  fieldset,
+  tr,
+  th,
+  td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+    line-height: 1;
+    font-family: inherit;
+  }
+  html, body {
+    background-color: #ffffff;
+  }
+  body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18px;
+    color: #404040;
+  }
+  .container {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    zoom: 1;
+
+  }
+.span4 {
+    width: 220px;
+  }
+  .span7 {
+    width: 400px;
+  }
+  .span9 {
+    width: 820px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: bold;
+    color: #404040;
+  }
+  h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+    line-height: 36px;
+  }
+  footer {
+    margin-top: 17px;
+    padding-top: 17px;
+    border-top: 1px solid #eee;
+  }
+  .page-header {
+    margin-bottom: 17px;
+    border-bottom: 1px solid #ddd;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  }
